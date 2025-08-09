@@ -324,8 +324,8 @@
                         
                         <div>
                             <select id="configSelect" onchange="generateQR()" class="w-full bg-gray-700 border border-gray-600 rounded-lg p-3 text-white font-medium transition-all">
-                                <option value="cf_de_1">VLESS - ترکیه ᴛʀ</option>
-                                <option value="cf_de_2">VMESS - هلند ɴʟ</option>
+                                <option value="cf_de_1">VLESS - ترکیه 🇹🇷</option>
+                                <option value="cf_de_2">VMESS - هلند 🇳🇱</option>
                                 <option value="cf_de_tr_5">VLESS - آلمان 🇩🇪</option>
                             </select>
                         </div>
@@ -560,16 +560,16 @@
     <script>
         // --- CONFIGURATIONS ---
         const configs = {
-            cf_de_1: { name: 'VLESS - ShieldNet 1 ᴛʀ', config: 'vless://178959b5-a1c2-48ef-fe22-f622e69aa776@77.83.203.48:19230?security=none&encryption=none&headerType=none&type=tcp#abol%20-%20TR' },
-            cf_de_2: { name: 'VMESS - ShieldNet 2 ɴʟ', config: 'vmess://eyJhZGQiOiIxMzQuMTIyLjYwLjQyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjU4NWMxMjY1LTM2NWQtZjBlMi00NzM2LWU5NmExYWY1ZDcyZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjA4NiIsInBzIjoiYWJvbCAtIE5MIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ==' },
-            cf_de_3: { name: 'VMESS - ShieldNet 3 ꜰʀ', config: 'vmess://eyJhZGQiOiI0Ni44LjIyNC4zMSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJjMjU3ZTQyZi1mMjdlLTRlYWMtYTc2Yy1mZTJjZmJhZTc4ZTAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6ImFib2wgLSBGUiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==' },
-            cf_de_4: { name: 'VLESS - ShieldNet 4 ᴜꜱ', config: 'vless://bcccdd9c-6630-44fd-f2e7-26353ccdb91e@5.78.60.170:45325?security=none&encryption=none&headerType=none&type=tcp#abol%20-%20US' },
+            cf_de_1: { name: 'VLESS - ShieldNet 1 🇹🇷', config: 'vless://178959b5-a1c2-48ef-fe22-f622e69aa776@77.83.203.48:19230?security=none&encryption=none&headerType=none&type=tcp#abol%20-%20TR' },
+            cf_de_2: { name: 'VMESS - ShieldNet 2 🇳🇱', config: 'vmess://eyJhZGQiOiIxMzQuMTIyLjYwLjQyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjU4NWMxMjY1LTM2NWQtZjBlMi00NzM2LWU5NmExYWY1ZDcyZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjA4NiIsInBzIjoiYWJvbCAtIE5MIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ==' },
+            cf_de_3: { name: 'VMESS - ShieldNet 3 🇫🇷', config: 'vmess://eyJhZGQiOiI0Ni44LjIyNC4zMSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJjMjU3ZTQyZi1mMjdlLTRlYWMtYTc2Yy1mZTJjZmJhZTc4ZTAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6ImFib2wgLSBGUiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==' },
+            cf_de_4: { name: 'VLESS - ShieldNet 4 🇺🇸', config: 'vless://bcccdd9c-6630-44fd-f2e7-26353ccdb91e@5.78.60.170:45325?security=none&encryption=none&headerType=none&type=tcp#abol%20-%20US' },
             cf_de_tr_5: { name: 'VLESS - ShieldNet 5 🇩🇪', config: 'vless://a8b3aef3-2dbd-4b76-dddb-83c21a9d783c@91.107.244.163:42407?security=none&encryption=none&headerType=none&type=tcp#abol%20-%20DE' },
             cf_de_tr_6: { name: 'VLESS - ShieldNet 6 🇩🇪', config: 'vless://af08202b-7221-42f2-afb9-8c79baa8657e@212.16.68.72:42836?security=none&encryption=none&headerType=none&type=tcp#abol%20-%20DE' },
-            cf_de_tr_7: { name: 'VLESS - ShieldNet 7 ᴅᴇ', config: 'vless://d0fd55c8-8252-4928-84a5-1d92f029daca@2.56.245.9:12012?security=none&seed=BwEuCfj2xj&encryption=none&headerType=none&type=kcp#abol%20-%20DE' },
+            cf_de_tr_7: { name: 'VLESS - ShieldNet 7 🇩🇪', config: 'vless://d0fd55c8-8252-4928-84a5-1d92f029daca@2.56.245.9:12012?security=none&seed=BwEuCfj2xj&encryption=none&headerType=none&type=kcp#abol%20-%20DE' },
             cf_de_tr_8: { name: 'VMESS - ShieldNet 8 🇩🇪', config: 'vmess://eyJhZGQiOiIxOC4xODQuMTU4LjE0MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJjN2RkY2FlYy1lZGRiLTQwZDAtZDI4ZS1lM2EyZTY1NTUwNmQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiYWJvbCAtIERFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==' },
-            cf_plus_1: { name: 'VLESS - ShieldNet 1 ɴʟ', config: 'vless://9dbaef48-23aa-41b1-af7e-0f4bc152550d@212.193.1.93:2040?mode=gun&security=none&encryption=none&type=grpc#abol%20-%20NL' },
-            cf_plus_2: { name: 'VLESS - ShieldNet 2 ꜰʀ', config: 'vless://90f3d66a-cc07-4874-c6da-dd5c055f76d7@140.82.54.53:443?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#abol%20-%20FR' },
+            cf_plus_1: { name: 'VLESS - ShieldNet 1 🇳🇱', config: 'vless://9dbaef48-23aa-41b1-af7e-0f4bc152550d@212.193.1.93:2040?mode=gun&security=none&encryption=none&type=grpc#abol%20-%20NL' },
+            cf_plus_2: { name: 'VLESS - ShieldNet 2 🇫🇷', config: 'vless://90f3d66a-cc07-4874-c6da-dd5c055f76d7@140.82.54.53:443?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#abol%20-%20FR' },
 
         };
 
